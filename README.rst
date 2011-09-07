@@ -1,13 +1,13 @@
-====================
-HTML5 Hot Pink Theme
-====================
+=====================
+plonetheme.plumigreen
+=====================
 
 Installable theme for `Plone`_ (using `plone.app.theming`_).
 
 :Source: https://github.com/garbas/plonetheme.plumigreen
 :Issues: https://github.com/garbas/plonetheme.plumigreen/issues
 :Licence: http://www.opensource.org/licenses/bsd-license.php
-:Download: http://github.com/downloads/garbas/plonetheme.html5_hotpink/html5_hotpink-latest.zip
+:Download: http://github.com/downloads/garbas/plonetheme.plumigreen/plumigreen-latest.zip
 
 This theme is intent to be similar to `plumi.skin`_. Its ment to be its
 replacement.
