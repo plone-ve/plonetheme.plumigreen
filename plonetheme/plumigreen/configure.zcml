@@ -1,8 +1,19 @@
 <configure
+    xmlns="http://namespaces.zope.org/zope"
     xmlns:plone="http://namespaces.plone.org/plone"
-    xmlns="http://namespaces.zope.org/zope">
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
 
-    <plone:static directory="static" type="theme" />
+    <plone:static
+        directory="static"
+        type="theme"
+        />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="plonetheme.plumitheme" 
+        directory="profiles/default" 
+        description="Diazo theme for Plone"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
 
 </configure>
-
