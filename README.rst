@@ -43,7 +43,6 @@ Using .zip
 Import created zip file via ``@@theming-controlpanel`` -> ``Import theme`` tab.
 
 
-
 Activating theme
 ----------------
 
@@ -55,8 +54,8 @@ dropdown.
 Credits
 =======
 
-    * `Rok Garbas`_, initial implementation
-    * `Plumi developers`_, idea that this theme is based uppon
+* `Rok Garbas`_, initial implementation
+* `Plumi developers`_, idea that this theme is based uppon
 
 
 Changelog
@@ -65,8 +64,8 @@ Changelog
 0.1 - 2011-09-07
 ----------------
 
-    * initial implementation of theme with Diazo_ rules.
-      [garbas]
+* initial implementation of theme with Diazo_ rules.
+  [garbas]
 
 
 .. _`Rok Garbas`: http://www.garbas.si
