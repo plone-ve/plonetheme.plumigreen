@@ -103,16 +103,16 @@ dd, ul, ol {
   clear: both;
   padding: 0.5em;
 }
-#content dd.featured-video-duration {
-  float: right;
-  margin: 0 3em;
-}
-#content dd.featuredItemDetailsPosted {
-  display: block;
-}
 #content dd.featuredFooter {
   margin: 1em;
   text-align: center;
+}
+#content .featured-video-duration {
+  float: right;
+  margin: 0 3em;
+}
+#content .featuredItemDetailsPosted {
+  display: block;
 }
 /* 
  * FOOTER
