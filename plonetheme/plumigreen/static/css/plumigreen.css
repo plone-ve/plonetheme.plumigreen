@@ -11,6 +11,14 @@ body {
   background-color: #abbd10;
   font-size: 14px;
 }
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #333333 !important;
+}
 a, a:link, a:visited {
   color: #205c90;
 }
@@ -77,6 +85,16 @@ dd, ul, ol {
 #portal-globalnav li.selected a, #portal-globalnav li.selected a:hover, #portal-globalnav li a:hover {
   background-color: transparent;
   color: #666666;
+}
+/*
+ * CONTENT
+ */
+.featured-video-duration {
+  float: right;
+  margin: 0 3em;
+}
+.featuredItemDetailsPosted {
+  display: block;
 }
 /* 
  * FOOTER
