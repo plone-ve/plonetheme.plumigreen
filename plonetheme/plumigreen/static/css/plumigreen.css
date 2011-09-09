@@ -92,6 +92,9 @@ dd, ul, ol {
 #content {
   font-size: 1em;
 }
+#content dd {
+  margin: 0;
+}
 .featured-block dd {
   margin-left: 0.3em;
   margin-top: 0.5em;
