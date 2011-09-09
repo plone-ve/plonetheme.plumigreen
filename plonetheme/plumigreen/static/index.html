@@ -1,31 +1,169 @@
 <!doctype html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>plonetheme.plumigreen</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple_touch_icon.png" />
+
+    <!--link rel="stylesheet" href="css/deco.css">
+    <link rel="stylesheet" href="css/plone.css"-->
+
+    <link rel="stylesheet" href="css/boilerplate.css">
+    <link rel="stylesheet" href="css/plumigreen.css">
+
+    <script src="js/modernizr-2.0.6.min.js"></script>
 
 </head>
 <body>
 
-<div id="container">
-    <header>
+    <div id="visual-portal-wrapper">
+    <div id="visual-portal-inner-wrapper">
+        <header>
+        <div id="portal-top" class="row">
+            <div class="cell position-0 width-full">
+                <div id="portal-header">
 
-    </header>
-    <div id="main" role="main">
-    
+                    <p class="hiddenStructure">
+                        <a href="#content" accesskey="2">Skip to content.</a> |
+                        <a href="#portlet-navigation-tree" accesskey="6">Skip to navigation</a>
+                    </p>
+
+                    <div id="portal-personaltools-wrapper">
+                        <h5 class="hiddenStructure">Personal tools</h5>
+                        <dl id="portal-personaltools" class="actionMenu deactivated">
+                            <dt class="actionMenuHeader">
+                                <a href="dashboard.html" id="user-name">admin</a>
+                            </dt>
+                            <dd class="actionMenuContent">
+                                <ul>
+                                    <li id="personaltools-dashboard">
+                                        <a href="dashboard.html">Dashboard</a>
+                                    </li>
+                                    <li id="personaltools-plone_setup">
+                                        <a href="plone_control_panel.html">Site Setup</a>
+                                    </li>
+                                    <li id="personaltools-review-comments">
+                                        <a href="moderate-comments.html">Moderate comments</a>
+                                    </li>
+                                    <li id="personaltools-logout">
+                                        <a href="logout.html">Log out</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <ul id="portal-languageselector">
+                        <li class="currentLanguage language-en">
+                            <a title="English" href="?set_language=en">
+                                <img width="14" height="11" title="English" src="images/flag-gb.gif" alt="English">
+                            </a>
+                        </li>
+                        <li class="language-id">
+                            <a title="Bahasa Indonesia" href="?set_language=id">
+                                <img width="14" height="11" title="Bahasa Indonesia" src="images/flag-id.gif" alt="Bahasa Indonesia">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <a href="#" title="Publish" id="portal-publish-button">
+                        <img alt="upload video" src="images/button-pload-video.jpg">
+                        <span>Publish</span>
+                    </a>
+
+                    <div id="portal-searchbox">
+                        <form action="search.html" id="livesearch0" name="searchform">
+                            <div class="LSBox">
+                                <label for="searchGadget" class="hiddenStructure">Search Site</label>
+                                <input type="text" id="searchGadget" class="searchField inputLabel inputLabelActive" accesskey="4" title="Search Site" size="18" name="SearchableText" autocomplete="off">
+                                <input type="submit" value="Search" class="searchButton">
+                                <div class="searchSection">
+                                    <input type="checkbox" value="/PloneNewTheme" name="path" class="noborder" id="searchbox_currentfolder_only">
+                                    <label style="cursor: pointer" for="searchbox_currentfolder_only">
+                                        only in current section
+                                    </label>
+                                </div>
+                                <div style="" id="LSResult" class="LSResult"><div id="LSShadow" class="LSShadow"></div></div>
+                            </div>
+                        </form>
+                        <div class="hiddenStructure" id="portal-advanced-search">
+                            <a accesskey="5" href="search_advance.html">
+                                Advanced Search…
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="#" accesskey="1" title="Home" id="portal-logo">
+                        <img title="" alt="" src="images/logo.gif">
+                    </a>
+
+                    <h5 class="hiddenStructure">Sections</h5>
+                    
+                    <ul id="portal-globalnav">
+                        <li class="selected" id="portaltab-index_html">
+                            <a title="" href="front-page.html">Home</a>
+                        </li>
+                        <li class="plain" id="portaltab-review_list">
+                            <a title="" href="full-review-list.html">Review List</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        </header>
+
+        <div id="main" role="main">
+            <div id="portal-columns" class="row">
+                <div id="portal-column-content" class="cell width-full position-0"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="cell position-0 width-full">
+                <footer>
+                <div id="footer">
+
+                    <ul id="portal-siteactions">
+                        <li id="siteaction-sitemap"><a title="Site Map" accesskey="3" href="sitemap.html">Site Map</a></li>
+                        <li id="siteaction-accessibility"><a title="Accessibility" accesskey="0" href="accessibility-info.html">Accessibility</a></li>
+                        <li id="siteaction-contact"><a title="Contact" accesskey="9" href="contact-info.html" rel="#pb_1" class="link-overlay" style="cursor: pointer;">Contact</a></li>
+                        <li id="siteaction-plone_setup"><a title="Site Setup" accesskey="" href="plone_control_panel.html">Site Setup</a></li>
+                        <li id="siteaction-review-comments"><a title="Moderate comments" accesskey="" href="moderate-comments.html">Moderate comments</a></li>
+                    </ul>
+
+                    <div id="portal-colophon">
+                        <div class="colophonWrapper">
+                            <ul>
+                                <li>
+                                    <a title="This Plone site was built using Plone, the Open Source Content Management System. Click for more information."
+                                       class="colophonIcon" id="plone-colophon-icon" href="http://plone.org">
+                                        Powered by Plone, the Open Source Content Management System
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="This site is powered by the free Plumi video-sharing package for Plone."
+                                       class="colophonIcon" id="plumi-colophon-icon" href="http://plumi.org">
+                                        This Plone site was designed by Spring In Alaska
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
-    <footer>
-    
-    </footer>
-</div>
+    </div>
 
 </body>
 </html>

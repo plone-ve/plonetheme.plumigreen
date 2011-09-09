@@ -1,0 +1,169 @@
+
+/* configurable things */
+
+@color1: #ABBD10;  // green used for site background
+@color2: #FFFFFF;  // white used for background of content area
+@color3: #666666;  // grayish color of global navigation
+@color4: #205C90;  // blue color for links
+
+
+/* userfull functions */
+
+.box-shadow (@1, @2, @3, @4, @5) {
+    @val: @1 @2 @3 @4 @5;
+
+    box-shadow:         @val;
+    -webkit-box-shadow: @val;
+    -moz-box-shadow:    @val;
+}
+
+
+
+/* 
+ * BASIC ELEMENTS
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: @color1;
+    font-size: 14px;
+}
+
+a,
+a:link,
+a:visited {
+    color: @color4;
+}
+
+dd, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * LAYOUT
+ */
+
+#visual-portal-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#visual-portal-inner-wrapper {
+    float: left;
+    position: relative;
+    width: 100%;
+    background-color: @color2;
+    .box-shadow(0, 0, 2px, 10px, @color2);
+}
+
+
+
+/*
+ * HEADER
+ */
+
+#portal-languageselector {
+    margin: 0;
+    background: @color2;
+}
+
+#portal-searchbox {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+
+#portal-globalnav {
+
+    background: @color2;
+    border-color: @color1;
+    border-style: solid none;
+    border-width: 1px;
+    height: 30px;
+    padding: 0;
+
+    li,
+    li:hover {
+        background-color: transparent;
+        display: block;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    li a {
+        background-color: transparent;
+        border: 0 none;
+        color: @color3;
+        height: auto;
+        margin-right: 0.5em;
+        padding: 0 1.25em;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    li.selected a {
+        font-weight: bold;
+    }
+
+    li.selected a,
+    li.selected a:hover,
+    li a:hover {
+        background-color: transparent;
+        color: @color3;
+    }
+
+}
+
+
+
+/* 
+ * FOOTER
+ */
+
+#footer {
+
+    color: @color2;
+    margin: 20px;
+
+    #portal-siteactions {
+
+        padding-bottom: 1em;
+    
+        li a:link,
+        li a:visited {
+            color: @color4;
+            text-decoration: none;
+        }
+    }
+
+    #portal-colophon {
+
+        .colophonIcon {
+            cursor: pointer;
+            border: 0 none;
+            display: inline-block;
+            height: 0 !important;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 15px 0 0;
+            text-decoration: none;
+            vertical-align: top;
+            width: 80px;
+        }
+        
+        #plone-colophon-icon {
+            background: url(../images/plone-colophon-icon.gif);
+        }
+
+        #plumi-colophon-icon {
+            background: url(../images/plumi-colophon-icon.gif);
+        }
+    }
+}
