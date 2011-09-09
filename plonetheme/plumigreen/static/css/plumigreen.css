@@ -95,22 +95,22 @@ dd, ul, ol {
 #content dd {
   margin: 0;
 }
-.featured-block dd {
+#content .featured-block dd {
   margin-left: 0.3em;
   margin-top: 0.5em;
 }
-.featuredItem {
+#content dd.featuredItem {
   clear: both;
   padding: 0.5em;
 }
-.featured-video-duration {
+#content dd.featured-video-duration {
   float: right;
   margin: 0 3em;
 }
-.featuredItemDetailsPosted {
+#content dd.featuredItemDetailsPosted {
   display: block;
 }
-.featuredFooter {
+#content dd.featuredFooter {
   margin: 1em;
   text-align: center;
 }
