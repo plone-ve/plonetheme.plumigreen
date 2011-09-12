@@ -85,8 +85,16 @@ dd, ul, ol {
 
 #portal-searchbox {
     position: absolute;
-    bottom: 40px;
+    top: 100px;
     right: 0;
+
+    #searchGadget {
+        padding: 5px;
+    }
+    .searchSection,
+    .searchButton {
+        display: none;
+    }
 }
 
 #portal-globalnav {
@@ -116,6 +124,7 @@ dd, ul, ol {
         padding: 0 1.25em;
         text-decoration: none;
         text-transform: capitalize;
+        text-align: center;
     }
 
     li.selected a {
@@ -130,6 +139,19 @@ dd, ul, ol {
     }
 
 }
+
+#portal-publish-button {
+    margin: 1em;
+    position: absolute;
+    top: 20px;
+    right: 0;
+
+    img {
+        width: 100px;
+    }
+}
+
+
 
 /*
  * CONTENT
@@ -164,6 +186,8 @@ dd, ul, ol {
 
     .featuredItemDetailsPosted {
         display: block;
+        font-size: 75%;
+        margin: 0 0 1em;
     }
 }
 

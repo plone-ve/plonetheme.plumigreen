@@ -51,8 +51,14 @@ dd, ul, ol {
 }
 #portal-searchbox {
   position: absolute;
-  bottom: 40px;
+  top: 100px;
   right: 0;
+}
+#portal-searchbox #searchGadget {
+  padding: 5px;
+}
+#portal-searchbox .searchSection, #portal-searchbox .searchButton {
+  display: none;
 }
 #portal-globalnav {
   background: #ffffff;
@@ -78,6 +84,7 @@ dd, ul, ol {
   padding: 0 1.25em;
   text-decoration: none;
   text-transform: capitalize;
+  text-align: center;
 }
 #portal-globalnav li.selected a {
   font-weight: bold;
@@ -85,6 +92,15 @@ dd, ul, ol {
 #portal-globalnav li.selected a, #portal-globalnav li.selected a:hover, #portal-globalnav li a:hover {
   background-color: transparent;
   color: #666666;
+}
+#portal-publish-button {
+  margin: 1em;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+#portal-publish-button img {
+  width: 100px;
 }
 /*
  * CONTENT
@@ -113,6 +129,8 @@ dd, ul, ol {
 }
 #content .featuredItemDetailsPosted {
   display: block;
+  font-size: 75%;
+  margin: 0 0 1em;
 }
 /* 
  * FOOTER
