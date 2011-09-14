@@ -24,3 +24,9 @@ dd,ul,ol{margin:0;padding:0;}
 #footer #portal-colophon .colophonIcon{cursor:pointer;border:0 none;display:inline-block;height:0 !important;margin:0 auto;overflow:hidden;padding:15px 0 0;text-decoration:none;vertical-align:top;width:80px;}
 #footer #portal-colophon #plone-colophon-icon{background:url(../images/plone-colophon-icon.gif);}
 #footer #portal-colophon #plumi-colophon-icon{background:url(../images/plumi-colophon-icon.gif);}
+.videos-listing .plumi-nice-description{margin:1em 0 0 150px;height:85px;font-size:1.2em;background:#eee;padding:0.5em;}
+.videos-listing .plumi-nice-description span{display:block;height:55px;overflow:hidden;}
+.videos-listing .plumi-nice-description span.featured-read-more{height:auto;overflow:visible;clear:none;margin-top:10px;text-align:right;}
+#video-infos{width:280px;}
+#video-core{width:640px;}
+#player-videoview{height:360px;width:640px;}
