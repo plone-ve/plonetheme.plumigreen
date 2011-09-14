@@ -43,6 +43,19 @@
     <replace css:content="#portal-globalnav" css:theme="#portal-globalnav" />
     <replace css:content="#portal-languageselector" css:theme="#portal-languageselector" />
     <replace css:content="#portal-personaltools-wrapper" css:theme="#portal-personaltools-wrapper" />
+    <replace css:theme="#portal-publish-button">
+        <xsl:element name="a">
+            <xsl:attribute name="id">portal-publish-button</xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:value-of select="$publish-link" />
+            </xsl:attribute>
+            <xsl:element name="img">
+                <xsl:attribute name="src">
+                    <xsl:value-of select="$publish-image" />
+                </xsl:attribute>
+            </xsl:element>
+        </xsl:element>
+    </replace>
 
     <!-- content -->
     <replace css:content="#portal-columns" css:theme="#portal-columns" />
