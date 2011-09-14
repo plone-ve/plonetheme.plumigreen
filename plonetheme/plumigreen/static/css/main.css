@@ -30,3 +30,4 @@ dd,ul,ol{margin:0;padding:0;}
 #video-infos{width:280px;}
 #video-core{width:640px;}
 #player-videoview{height:360px;width:640px;}
+#featured-video-image{float:left;}
