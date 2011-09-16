@@ -24,7 +24,6 @@
     <notheme if-path="row.htm"/>
     <notheme if-path="cell.htm"/>
     <notheme if-path="attributes.htm"/>
-    <notheme if="$ajax_load" />
     <notheme if-path="@@analytics_async/" />
 
 

@@ -158,7 +158,7 @@ dd, ul, ol {
  */
 
 #content {
-    font-size: 1em;
+    font-size: 0.8em;
 
     dd {
         margin: 0;
@@ -171,11 +171,13 @@ dd, ul, ol {
 
     dd.featuredItem {
         clear: both;
-        padding: 0.5em;
+        margin: 0;
+        padding: 0 0.5em 0.5em;
     }
 
     dt.featuredHeader {
-        text-align: right;
+        position: absolute;
+        right: 0;
         a { font-size: 0; }
         
     }
@@ -278,3 +280,4 @@ a.featured-video-image {
     float: left;
     border: 0 !important;
 }
+
