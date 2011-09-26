@@ -12,7 +12,7 @@ dd,ul,ol{margin:0;padding:0;}
 #portal-globalnav li a{background-color:transparent;border:0 none;color:#666666;height:auto;margin-right:0.5em;padding:0 1.25em;text-decoration:none;text-transform:capitalize;text-align:center;}
 #portal-globalnav li.selected a{font-weight:bold;}
 #portal-globalnav li.selected a,#portal-globalnav li.selected a:hover,#portal-globalnav li a:hover{background-color:transparent;color:#666666;}
-#portal-publish-button{margin:1em;position:absolute;top:20px;right:0;}#portal-publish-button img{width:100px;}
+#portal-publish-button{margin:1em;position:absolute;top:40px;right:0;}#portal-publish-button img{width:70px;}
 #content{font-size:0.8em;}#content dd{margin:0;}
 #content .featured-block dd{margin-left:0.3em;margin-top:0.5em;}
 #content dd.featuredItem{clear:both;margin:0;padding:0 0.5em 0.5em;}
