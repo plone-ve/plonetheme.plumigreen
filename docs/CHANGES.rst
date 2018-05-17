@@ -4,6 +4,8 @@ Changelog
 0.2 (unreleased)
 ----------------
 
+- Added LICENSE and CHANGES files [macagua]
+
 - Added more improvements about README file [macagua]
 
 - Added a simple Diazo theme package (Zip file) [macagua]
