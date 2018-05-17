@@ -10,7 +10,8 @@ setup(
     name=name,
     version=version,
     description='Plumi Green, is an installable Diazo theme for Plone 4',
-    long_description=open("README.rst").read(),
+    long_description=open("README.rst").read() + "\n" +
+                     open(os.path.join("docs", "CHANGES.rst")).read(),
     # Get more strings from
     # https://pypi.org/pypi?:action=list_classifiers
     classifiers=[
