@@ -4,7 +4,7 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <!-- http://pypi.python.org/pypi/xdv#doctypes 
+    <!-- http://pypi.org/project/xdv#doctypes
          The HTML5 specification lists XHTML 1.0 Strict as as obsolete
          permitted doctype string, so this doctype is recommended when
          HTML5 output is desired. -->
