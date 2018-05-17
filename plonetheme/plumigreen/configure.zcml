@@ -12,7 +12,7 @@
         name="default"
         title="plonetheme.plumigreen" 
         directory="profiles/default" 
-        description="Diazo theme for Plone"
+        description="Installs the plonetheme.plumigreen package"
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
