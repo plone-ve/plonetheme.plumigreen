@@ -3,7 +3,7 @@ plonetheme.plumigreen
 =====================
 
 
-This plone theme, is an installable `Diazo`_ theme for `Plone`_ 4 developed 
+This Plone theme, is an installable `Diazo`_ theme for `Plone`_ 4 developed 
 by `Rok Garbas`_.
 
 .. contents::
@@ -107,7 +107,7 @@ Contribute
 :Source Code: https://github.com/garbas/plonetheme.plumigreen
 :Issues Tracker: https://github.com/garbas/plonetheme.plumigreen/issues
 :Licence: http://www.opensource.org/licenses/bsd-license.php
-:Download: https://github.com/garbas/plonetheme.plumigreen/archive/master.zip
+:Download: https://github.com/garbas/plonetheme.plumigreen/raw/master/plumigreen.zip
 
 
 License
