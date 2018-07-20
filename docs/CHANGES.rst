@@ -4,6 +4,8 @@ Changelog
 0.2 (unreleased)
 ----------------
 
+- Added i18n directive for the package ZCML file [macagua]
+
 - Added LICENSE and CHANGES files [macagua]
 
 - Added more improvements about README file [macagua]
